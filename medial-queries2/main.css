@@ -28,6 +28,15 @@ border: none;
   justify-content: space-between;
   align-items: center;
   min-height: 70vh;
+  border:none;
+}
+
+header{
+  
+  justify-content:center;
+  align-items: center;
+  display:flex;
+  padding-bottom: 25vh;
 }
 
 header, footer, aside, .wrapper  {
@@ -36,11 +45,22 @@ header, footer, aside, .wrapper  {
   max-height: 10vh;
 }
 
+footer{
+  justify-content:center;
+  align-items: center;
+  display:flex;
+}
 aside  {
   display: flex;
   justify-content: space-between;
   width: 90%;
   min-height: 20vh;
+  border: none;
+  justify-content: space-between;
+  margin: 6%;
+  margin-bottom: 5vh;
+  margin-left: .5vh;
+  margin-top: .9vh;
 
 }
 
@@ -51,9 +71,15 @@ aside > div {
 }
 
 main {
-  width: 90%;
+  width: 100%;
   flex-grow: 3;
   margin: .5em;
+  margin-bottom: 5vh;
+  margin-left: .5vh;
+  margin-top: .9vh;
+  justify-content:center;
+  align-items: center;
+  display:flex;
 }
 
 .f{
@@ -61,7 +87,7 @@ main {
   justify-content:center;
   align-items: center;
   display:flex;
-  height: .3vh;
+  border: none;
 }
 
 .e{
@@ -69,6 +95,8 @@ main {
   justify-content:center;
   align-items: center;
   display:flex;
+  margin-top: -4vh;
+  margin-right: -4vh;
 }
 
 .d{
@@ -76,6 +104,8 @@ main {
   justify-content:center;
   align-items: center;
   display:flex;
+  margin-top: -4vh;
+  
 }
 
 .c{
@@ -83,6 +113,8 @@ main {
   justify-content:center;
   align-items: center;
   display:flex;
+  margin-top: -4vh;
+  margin-left: -3vh;
 }
 
 .b{
@@ -90,6 +122,8 @@ main {
   justify-content:center;
   align-items: center;
   display:flex;
+  border: none;
+ 
 }
 
 .a{
@@ -97,7 +131,9 @@ main {
   justify-content:center;
   align-items: center;
   display:flex;
-  max-height: 30vh;
+  border: none;
+  padding-bottom: -4vh;
+  padding-top:-4vh; 
 }
 
 
