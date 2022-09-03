@@ -1,11 +1,5 @@
 body {
   background-color: rgb (229, 229, 229);
-
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  font-size: 32px;
-border: none;
 }
 
 * {
