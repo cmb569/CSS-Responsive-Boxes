@@ -1,11 +1,9 @@
-.body {
-  background: rgb (229, 229, 229);
+body {
+  background: rgb(229, 229, 229);
   height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 2em;
-  font-size: 32px;
 }
 
 * {
@@ -13,81 +11,67 @@
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
   padding: 2em;
   flex-grow: 1;
+  gap: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .container > div {
+
   flex-grow: 1;
   border: 1px solid rgb(80, 80, 80);
   background-color: rgb(210, 210, 210);
-  border-radius: 0.3 em;
-  justify-content:center;
-  align-items: center;
-  display:flex;
-  
+  border-radius: 0.3em;
 }
 
+div.b{
+  flex-grow: 2;
+}
+
+header, footer  {
+  flex-grow: 1;
+}
+
+main {
+  flex-grow:3;
+}
 
 .a{
+
   justify-content:center;
-  align-items: center;
-  display:flex;justify-content:center;
   align-items: center;
   display:flex;
 }
 
 .b{
+
   justify-content:center;
   align-items: center;
-  display:flex
-}
-.main{
-  flex-grow:3;
+  display:flex;
 }
 
+.c{
+
+  justify-content:center;
+  align-items: center;
+  display:flex;
+}
 
 @media (min-width: 600px) {
   .container {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
-
-
-.c{
-  justify-content:center;
-  align-items: center;
-  display:flex;
-}
-
-div.b{
-  flex-grow: 2;
-  
-}
-
-.b{flex-grow: 5;}
-
-div.a{
-  flex-grow: 1 1 100%;
-}
-
-  
-
-.header, footer  {
-  flex-grow: 1;
-}
-
-   .a{ flex: 1 1 100%;
-
-  }
-  .header {
+  header {
     width: 100%;
   }
-  .main, footer, header {
+  div.a{
+    flex: 1 1 100%;
+  }
+  main, footer, header {
     margin: 1em;
   }
 }
