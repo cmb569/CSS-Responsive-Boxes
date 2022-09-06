@@ -1,4 +1,4 @@
-body {
+.body {
   background-color: rgb (229, 229, 229);
 }
 
@@ -13,11 +13,11 @@ body {
   justify-content: space-between;
 }
 
-header, footer  {
+.header, footer  {
   flex-grow: 1;
 }
 
-main {
+.main {
   flex-grow:3;
 }
 
@@ -27,10 +27,10 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  header {
+  .header {
     width: 100%;
   }
-  main, footer, header {
+  .main, footer, header {
     margin: 1em;
   }
 }
